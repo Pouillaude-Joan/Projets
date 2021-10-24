@@ -1,0 +1,28 @@
+@import './variables/_colors.scss';
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative !important;
+    min-height: 100vh !important;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/**
+* A classname to put something int the middle of the screnn, vertically and horizontally
+*
+* @author Peter Mollet
+*/
+.vh-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

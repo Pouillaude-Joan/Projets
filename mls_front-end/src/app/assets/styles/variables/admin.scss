@@ -1,0 +1,40 @@
+.flex-container {
+  display: flex;
+   padding-left: 5%;
+   padding-right: 5%;
+  justify-content: space-between;
+  margin: 100px;  
+}
+.main-content {
+  background-color:#1111bd;
+  flex: 1;
+  justify-content: space-between;
+}
+.sidebar {
+  flex: 1;
+  background-color: rgba(255, 107, 8, 0.76);
+}
+p{
+  text-align: center;
+}
+.btn{
+  margin: 15.375rem;
+}
+section.main-content{
+  margin-right: 150px;
+  width: 200px;
+  height: 600px;
+}
+aside.sidebar{
+  width: 200px;
+  height: 600px;
+}
+.btn-primary1{
+  
+  background-color: #1111bd;
+}
+.btn{
+  color: azure;
+}
+
+
